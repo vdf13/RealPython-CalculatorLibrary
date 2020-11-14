@@ -14,3 +14,6 @@ class TestCalculator:
 
     def test_multiplication(self):
         assert 69 == calculator.multiply(3, 23)
+
+    def test_division(self):
+        assert 11 == calculator.divide(33, 3)
